@@ -178,8 +178,6 @@ def player_numbers(t_name)
     if team_data[:team_name] == t_name
       team_data[:players].each do|player, player_data|
         team_numbers << player_data[:number]
-
-
     end
   end
 end
@@ -201,9 +199,6 @@ def player_stats(name)
   end
 end
 
-
-#
-
 def big_shoe_rebounds
   max_shoe_size = 0
   rebound_number = 0
@@ -219,17 +214,4 @@ def big_shoe_rebounds
 
 rebound_number
 end
-    
-
-
-
-
-    
-
-            
-
-
-
-
-
 
